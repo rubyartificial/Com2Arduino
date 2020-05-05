@@ -10,16 +10,14 @@ using namespace std;
 char* portInput;
 char* Port;
 char* portName;
-string fart;
-
+string str;
 
 
 char incomingData[MAX_DATA_LENGTH];
 
 //Control signals for turning on and turning off the led
 //Check arduino code
-char ledON[] = " " ;
-char ledOFF[] = " ";
+
 char status[] =" ";
 char exitStatus[] =" ";
 //Arduino SerialPort object
@@ -37,11 +35,23 @@ void exampleReceiveData(void)
     int readResult = arduino->readSerialPort(incomingData, MAX_DATA_LENGTH);
     printf("%s", incomingData);
     Sleep(10);
+
 }
 
 void exampleWriteData(unsigned int delayTime)
 {
-    cout<<("Enter Command:");
+    system("cls");
+    cout<<("Logged in to ");
+    cout <<str;
+    cout << " \n";
+    cout << " \n";
+    cout<<("Preset commands: \n");
+    cout<<("Enter a number 0 - 1000. \n");
+    cout<<("On - Turn on A0/Led. \n");
+    cout<<("Off - Turn off A0/Led. \n");
+     cout << " \n";
+    cout << " \n";
+    cout<<("Enter Command:\n");
     cin>> status;
     if (exitStatus != status)
 
@@ -84,10 +94,12 @@ void autoConnect(void)
 
 int main()
 {
-
+cout<< "Com2Arduino Version 1.001 \n";
+cout<< "Nucleonet Development Solutions Inc. \n";
+cout<< "\n";
 cout<< "Please specify port number: \n";
 //convert string to Char
-string str;
+
 cout <<("Logging in on port %s", str);
 cin>>str;
 char *cstr = new char[str.length() + 1];

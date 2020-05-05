@@ -37,3 +37,23 @@
 	"SerialPort.h"
 	<istream>
 
+1588648600 source:c:\users\nucleonet\desktop\c++com2arduino\com2arduino c++ side\src\serialport.cpp
+	"SerialPort.h"
+	<iostream>
+	<windows.h>
+
+1588641990 c:\users\nucleonet\desktop\c++com2arduino\com2arduino c++ side\src\serialport.h
+	<iostream>
+	<windows.h>
+	<iostream>
+	<windows.h>
+	<iostream>
+
+1588648912 source:c:\users\nucleonet\desktop\c++com2arduino\com2arduino c++ side\src\main.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<windows.h>
+	"SerialPort.h"
+	<istream>
+
