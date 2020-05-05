@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1588635139 source:c:\users\nucleonet\desktop\cpp\sample 1.01\main.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<windows.h>
+	"include\SerialPort.h"
+
+1588638566 source:c:\users\nucleonet\desktop\cpp\sample 1.01\src\serialport.cpp
+	"SerialPort.h"
+	<iostream>
+	<windows.h>
+
+1588635229 c:\users\nucleonet\desktop\cpp\sample 1.01\include\serialport.h
+	<windows.h>
+	<iostream>
+
+1588641990 c:\users\nucleonet\desktop\cpp\sample 1.01\src\serialport.h
+	<iostream>
+	<windows.h>
+	<iostream>
+	<windows.h>
+	<iostream>
+
+1588637693 c:\users\nucleonet\desktop\cpp\sample 1.01\src\main.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<windows.h>
+	"SerialPort.h"
+
+1588642699 source:c:\users\nucleonet\desktop\cpp\sample 1.01\src\main.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<windows.h>
+	"SerialPort.h"
+	<istream>
+
