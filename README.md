@@ -21,3 +21,9 @@ The sky is the limit!
   I have left some notes in the arduino. You will quickly see that by modifying your arduino code, you can activate your arduino over the web, from your computer in your house, perhaps in your barn, or at your friends house. Just implement some networking, actuators, motors, the sky is the limit. 
 
 
+I will work on enhancements and two way readability. For now, whatever you code in arduino can be a command in com2ardunio!
+
+Cheers!
+
+-A
+
