@@ -44,7 +44,7 @@ void loop() {
 }
 
 // Turns Built in LED/A0 on. Be sure if you use this, you connect to a resistor to prevent that LED from burning out as its sending 5v  across your LED.
-  if (iBytes == "ON")
+  if (iBytes == "HEYBABE")
 {
   digitalWrite(LED_BUILTIN, HIGH);
   digitalWrite(A0, HIGH);   
