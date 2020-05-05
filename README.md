@@ -1,5 +1,7 @@
 # Com2Arduino
 Windows Console to Arduino - Control your arduino from console on PC!!
+Usable from any windows PC!
+You do not need to have arduino ide installed to implement the console, only update the arduino code to be more fitting to your personal needs!!!
 
 Hello Github. 
 This is my first git, and my first considerably useful program. 
